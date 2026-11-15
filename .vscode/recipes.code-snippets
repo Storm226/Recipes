@@ -1,0 +1,52 @@
+{
+    "Recipe heading": {
+        "scope": "markdown",
+        "prefix": "recipe",
+        "body": [
+            "## ${1:Recipe Name}",
+            "",
+            "$0"
+        ],
+        "description": "New recipe section"
+    },
+    "Recipe trial": {
+        "scope": "markdown",
+        "prefix": "trial",
+        "body": [
+            "### Trial ${1:1}",
+            "",
+            "| | |",
+            "|---|---|",
+            "| **Date** | $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE, $CURRENT_YEAR |",
+            "| **Rating** | ${2:/5} |",
+            "",
+            "#### Ingredients",
+            "",
+            "- ${3}",
+            "",
+            "#### Macros",
+            "",
+            "Total batch (estimated):",
+            "",
+            "| Calories | Protein | Carbs | Fiber | Sugar | Fat | Sat. Fat | Sodium |",
+            "|---------:|--------:|------:|------:|------:|----:|---------:|-------:|",
+            "|          |         |       |       |       |     |          |        |",
+            "",
+            "Per serving:",
+            "",
+            "| Servings | Calories | Protein | Carbs | Fiber | Sugar | Fat | Sat. Fat | Sodium |",
+            "|---------:|---------:|--------:|------:|------:|------:|----:|---------:|-------:|",
+            "|          |          |         |       |       |       |     |          |        |",
+            "",
+            "#### Method",
+            "",
+            "1. ${4}",
+            "",
+            "#### Results",
+            "",
+            "- ${0}",
+            ""
+        ],
+        "description": "New trial section for a recipe"
+    }
+}
